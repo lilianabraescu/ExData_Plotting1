@@ -2,7 +2,7 @@
 ## Plotting Assignment 1 for Exploratory Data Analysis
 ### Introduction
 This assignment uses data from the UC Irvine Machine Learning Repository, a popular repository for machine learning datasets. 
-In particular, we will be using the "Individual household electric power consumption Data Set" which are available on the course web site:
+In particular, we will be using the "Individual household electric power consumption Data Set" which are available on the course web site.
 
 **Dataset:** Electric power consumption [20Mb]
 
@@ -33,15 +33,7 @@ washing-machine, a tumble-drier, a refrigerator and a light.
 Loading the data
 
 When loading the dataset into R, please consider the following:
-
-The dataset has 2,075,259 rows and 9 columns. 
-
-We will only be using data from the dates 2007-02-01 and 2007-02-02. One alternative is to read the data from just those dates rather 
-than reading in the entire dataset and subsetting to those dates.
-
-You may find it useful to convert the Date and Time variables to Date/Time classes in R using the strptime() and as.Date() functions.
-
-Note that in this dataset missing values are coded as ?.
+The dataset has 2,075,259 rows and 9 columns. We will only be using data from the dates 2007-02-01 and 2007-02-02. One alternative is to read the data from just those dates rather than reading in the entire dataset and subsetting to those dates. You may find it useful to convert the Date and Time variables to Date/Time classes in R using the strptime() and as.Date() functions. Note that in this dataset missing values are coded as ?.
 
 ### Making Plots
 Our overall goal here is simply to examine how household energy usage varies over a 2-day period in February, 2007. 
